@@ -240,3 +240,39 @@ footer{
 .footer__right p{
     color: #FBFBFB;
 }
+.product__arrivals{
+    background: #F8F3F4;
+    margin-bottom: 51px;
+}
+.product__wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 60px 0;
+}
+.product__left{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.product__right{
+display: flex;
+}
+.product__right a{
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+}
+.product__right a:last-child{
+    color: #F16D7F;
+}
+details > summary{
+    list-style: none;
+}
+details > summary ::-webkit-details-marker{
+    display: none;
+}
+summary p{
+    margin-right: 10px;
+}
+summary{
+    display: flex;
+}
